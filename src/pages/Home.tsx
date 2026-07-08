@@ -1,8 +1,19 @@
+import Hero from "../components/sections/Hero";
+import Categories from "../components/sections/Categories";
+import FeaturedProducts from "../components/sections/FeaturedProducts";
+import WhyChooseUs from "../components/sections/WhyChooseUs";
+import Testimonials  from "../components/sections/Testimonials";
+import Newsletter from "../components/sections/Newsletter";
 function Home() {
   return (
-    <h1 className="text-4xl font-bold text-green-700">
-      Welcome to FreshNest 🌿
-    </h1>
+    <>
+      <Hero />
+      <Categories />
+      <FeaturedProducts />
+      <WhyChooseUs />
+      <Testimonials />
+      <Newsletter />
+    </>
   );
 }
 

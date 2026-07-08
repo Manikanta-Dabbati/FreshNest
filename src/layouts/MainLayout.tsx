@@ -1,13 +1,15 @@
-import { Outlet } from "react-router-dom";
+import AnnouncementBar from "../components/layout/AnnouncementBar";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
+import { Outlet } from "react-router-dom";
 
 function MainLayout() {
   return (
     <>
+      <AnnouncementBar />
       <Navbar />
 
-      <main className="min-h-screen max-w-7xl mx-auto px-6 py-8">
+      <main>
         <Outlet />
       </main>
 
