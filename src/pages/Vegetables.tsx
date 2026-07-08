@@ -4,7 +4,7 @@ return(
 
 <div>
 
-Vegetables
+<h1>Vegetables</h1>
 
 </div>
 

@@ -4,7 +4,7 @@ return(
 
 <div>
 
-Wishlist
+<h1>Wishlist</h1>
 
 </div>
 

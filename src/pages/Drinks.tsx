@@ -4,7 +4,7 @@ return(
 
 <div>
 
-Drinks
+<h1>Drinks</h1>
 
 </div>
 

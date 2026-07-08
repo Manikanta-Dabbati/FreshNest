@@ -1,9 +1,9 @@
-function Home() {
+function NonVeg() {
   return (
     <h1 className="text-4xl font-bold text-green-700">
-      Welcome to FreshNest 🌿
+      NonVeg
     </h1>
   );
 }
 
-export default Home;
+export default NonVeg;
